@@ -105,7 +105,7 @@ local MiscTab = Window:MakeTab({
     PremiumOnly = false
    })
    
-   local Section = PunchSimTab:AddSection({
+   local Section = MiscTab:AddSection({
     Name = "Misc"
    })
    
