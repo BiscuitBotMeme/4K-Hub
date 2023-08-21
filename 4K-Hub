@@ -65,6 +65,13 @@ PunchSimTab:AddButton({
 })
 
 PunchSimTab:AddButton({
+ Name = "OP Punch Simulator script",
+ Callback = function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/PerfectusMim/dbevo/main/asfasfasfasf'))()
+   end    
+})
+
+PunchSimTab:AddButton({
     Name = "Auto farm, Auto win fight",
     Callback = function()
        loadstring(game:HttpGet("https://raw.githubusercontent.com/ToraIsMe/ToraIsMe/main/0PUNCH"))()
