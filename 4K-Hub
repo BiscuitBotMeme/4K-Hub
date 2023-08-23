@@ -123,13 +123,6 @@ local MiscTab = Window:MakeTab({
        loadstring(game:HttpGet(('https://pastebin.com/raw/PafCdVU6'),true))()
       end    
    })
-
-MiscTab:AddButton({
-    Name = "Anti AFK",
-    Callback = function()
-       loadstring(game:HttpGet(('https://pastebin.com/raw/Yu12RUkY'),true))()
-      end    
-   })
    
    MiscTab:AddButton({
        Name = "Anti Afk",
